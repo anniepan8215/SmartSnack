@@ -1,7 +1,13 @@
 # SmartSnack
 Hybrid DQN and Supervised learning based Game Agent for Snake
 
-
+### Guidence
+- Run 'snake_game_human.py' and play the game by yourself
+- Run 'agent.py' to see how DQN agent play the game
+  - Correct Punishment in 'model.py' to [0,0,0] for plain DQN training
+- After collect enough data, run 'SL_train.py' to get your own great supervised learning model
+- After get a file 'best_model.pt', you can start to try DQN-SL model by run 'agent.py' again!
+  - change PUNISHMENT in 'model.py' for different weights for each class
 
 
 ### Reference
